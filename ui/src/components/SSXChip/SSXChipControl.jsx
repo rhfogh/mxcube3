@@ -27,7 +27,7 @@ export default class SSXChipControl extends React.Component {
           cell_count: 0,
           numRows: 0,
           numCols: 0,
-          selection: triggerEvent.props.selection,
+          selection: triggerEvent.props.selection
         },
         type: 'ssx_chip_collection',
       },
