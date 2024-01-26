@@ -1,16 +1,36 @@
+<!--
+<object class="ICATLIMSRestClient">
+  <ws_root>https://icatplus.esrf.fr</ws_root>
+  <object role="session" href="/session" />
+  <queue_urls>bcu-mq-01:61613</queue_urls>
+  <before_offset_days>3</before_offset_days>
+  <after_offset_days>3</after_offset_days>
+  <compatible_beamlines>ID23-1,ID30A-1</compatible_beamlines>
+  <!-- the list of sessions will be filtered by the override_beamline_name, this is needed when
+  HWR.beamline.session.beamline_name does not match with the name of the instrument in the catalog -->
+  <override_beamline_name>
+    ID23-1</override_beamline_name>
+
+  <data_portal_url>https://data2.esrf.fr/investigation/{id}/datasets</data_portal_url>
+  <logbook_url>https://data2.esrf.fr/investigation/{id}/logbook</logbook_url>
+  <user_portal_url>
+    https://smis.esrf.fr/misapps/SMISWebClient/protected/aform/manageAForm.do?action=view&amp;expSessionVO.pk={id}</user_portal_url>
+</object>
+-->
+
 <object class="ISPyBRestClientMockup">
   <restRoot>
-   https://your.lims.org
+    https://your.lims.org
   </restRoot>
   <site>
-   ESRF
+    ESRF
   </site>
   <exi_root>
-   https://your.exi.org
+    https://your.exi.org
   </exi_root>
   <restUserName></restUserName>
   <restPass></restPass>
 
-  <object role="session" href="/session"/>
+  <object role="session" href="/session" />
 
 </object>

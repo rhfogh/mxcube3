@@ -1,5 +1,20 @@
+
+<!--
+<object class="ICATLIMSClient">
+  <object hwrid="/lims_rest" role="lims_rest" />
+  <ws_root>https://icatplus.esrf.fr</ws_root>
+
+  <object role="session" href="/session" />
+
+  <!-- filter Available values : participant, instrumentscientist, released, embargoed -->
+  <filter>participant</filter>
+
+  <loginType>user</loginType>
+</object>
+-->
+
 <object class="ISPyBClientMockup">
-  <object hwrid="/lims_rest" role="lims_rest"/>
+  <object hwrid="/lims_rest" role="lims_rest" />
   <ws_root>
     https://your.lims.org
   </ws_root>
@@ -9,5 +24,5 @@
   <ws_username></ws_username>
   <ws_password></ws_password>
   <loginType>proposal</loginType>
-  <object role="session" href="/session"/>
+  <object role="session" href="/session" />
 </object>
