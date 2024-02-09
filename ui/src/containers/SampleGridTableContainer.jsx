@@ -1247,9 +1247,11 @@ class SampleGridTableContainer extends React.Component {
   }
 
   isSingleCell() {
-    return Object.values(this.props.sampleList).every(
-      (sample) => sample.cell_no === 1 || sample.cell_no === 0,
-    );
+    // Temporarily disabling single cell rendering
+    return false;
+    // return Object.values(this.props.sampleList).every(
+    //   (sample) => sample.cell_no === 1 || sample.cell_no === 0,
+    // );
   }
 
   renderSampleChangerDrawing() {
