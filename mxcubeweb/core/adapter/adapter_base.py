@@ -428,10 +428,12 @@ class ActuatorAdapterBase(AdapterBase):
         try:
             data.update({"value": self.get_value(), "limits": self.limits()})
         except Exception as ex:
-            logging.getLogger("MX3.HWR").exception(
-                f"Could not get dictionary representation of {self._ho.name()}"
-            )
-            logging.getLogger("MX3.HWR").error(
+            if "kappa" not in self._ho.name():
+                logging.getLogger("MX3.HWR").exception(
+                    f"Could not get dictionary representation of {self._ho.name()}"
+                )
+
+            logging.getLogger("MX3.HWR").warning(
                 f"Check status of {self._ho.name()}, object is"
                 " offline, in fault or returns unexpected value !"
             )
