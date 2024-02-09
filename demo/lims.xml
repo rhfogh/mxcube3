@@ -6,7 +6,7 @@
 
   <object role="session" href="/session" />
 
-  <!-- filter Available values : participant, instrumentscientist, released, embargoed -->
+  // filter Available values : participant, instrumentscientist, released, embargoed
   <filter>participant</filter>
 
   <loginType>user</loginType>

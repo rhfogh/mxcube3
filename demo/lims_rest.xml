@@ -6,8 +6,9 @@
   <before_offset_days>3</before_offset_days>
   <after_offset_days>3</after_offset_days>
   <compatible_beamlines>ID23-1,ID30A-1</compatible_beamlines>
-  <!-- the list of sessions will be filtered by the override_beamline_name, this is needed when
-  HWR.beamline.session.beamline_name does not match with the name of the instrument in the catalog -->
+
+  // the list of sessions will be filtered by the override_beamline_name, this is needed when
+  // HWR.beamline.session.beamline_name does not match with the name of the instrument in the catalog
   <override_beamline_name>
     ID23-1</override_beamline_name>
 
