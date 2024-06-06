@@ -2021,7 +2021,6 @@ class Queue(ComponentBase):
         return self.app.AUTO_MOUNT_SAMPLE
 
     def get_task_progress(self, node, pdata):
-        return 0
         progress = 0
 
         if node.is_executed():
