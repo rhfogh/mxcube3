@@ -4,9 +4,9 @@ name: "Pages"
 concurrency:
   group: "pages"
 
-"on":
-  pull_request: null
-  push: null
+on:  # yamllint disable-line rule:truthy
+  pull_request:
+  push:
 
 jobs:
   "pages-build":

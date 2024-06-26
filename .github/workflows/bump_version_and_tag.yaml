@@ -3,7 +3,7 @@
 
 name: Create/Update Tag
 
-"on":
+on:  # yamllint disable-line rule:truthy
   push:
     branches:
       - develop
