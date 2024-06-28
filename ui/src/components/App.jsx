@@ -6,6 +6,7 @@ import {
   Navigate,
 } from 'react-router-dom';
 
+import LoginContainer from '../containers/LoginContainer';
 import SampleViewContainer from '../containers/SampleViewContainer';
 import SampleListViewContainer from '../containers/SampleListViewContainer';
 import EquipmentContainer from '../containers/EquipmentContainer';
