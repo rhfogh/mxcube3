@@ -25,6 +25,7 @@ export function showErrorPanel(show, message = '') {
     type: 'SHOW_ERROR_PANEL',
     show,
     message,
+    description,
   };
 }
 

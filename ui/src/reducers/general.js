@@ -1,6 +1,7 @@
 const INITIAL_STATE = {
   showErrorPanel: false,
   errorMessage: '',
+  errorDescription: '',
   dialogData: '',
   dialogTitle: '',
   dialogType: '',
@@ -19,6 +20,7 @@ function generalReducer(state = INITIAL_STATE, action = {}) {
         ...state,
         showErrorPanel: action.show,
         errorMessage: action.message,
+        errorDescription: action.description,
       };
     }
     case 'SHOW_DIALOG': {
