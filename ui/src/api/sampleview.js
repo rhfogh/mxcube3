@@ -57,3 +57,7 @@ export function sendMoveToBeam(x, y) {
 export function sendTakeSnapshot(canvasData) {
   return endpoint.post({ overlay: canvasData }, '/camera/snapshot').blob();
 }
+
+export function sendTakeSnapshot(canvasData) {
+  return endpoint.post({ overlay: canvasData }, '/camera/snapshot').blob();
+}
