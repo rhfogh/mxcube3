@@ -23,7 +23,7 @@ export function sendSetAttribute(name, type, value) {
 }
 
 export function sendGetAttribute(type, name, attr, args) {
-  return endpoint.post(args, `/${type}/${name}/${attr}`).safeJson();
+  return endpoint.post(args, `/${type}/${name}/${attr}`).json();
 }
 
 export function sendRunBeamlineAction(name, parameters) {
