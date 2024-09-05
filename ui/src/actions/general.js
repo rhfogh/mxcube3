@@ -20,7 +20,7 @@ export function applicationFetched(data) {
   return { type: 'APPLICATION_FETCHED', data };
 }
 
-export function showErrorPanel(show, message = '') {
+export function showErrorPanel(show, message = '', description = null) {
   return {
     type: 'SHOW_ERROR_PANEL',
     show,
