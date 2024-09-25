@@ -132,6 +132,28 @@ Element names are tied to the beamline or workflow and cannot be modified
     <c:filenamePattern xsi:type="c:FilenamePattern">
         <exid>interleaved</exid>
 
+        <element xsi:type="tet:Separator">
+            <value>G</value>
+        </element>
+
+        <element xsi:type="tet:Parameter">
+            <name>gonio_setting_index</name>
+            <type>unsignedInt</type>
+        </element>
+
+        <element xsi:type="tet:Separator">
+            <value>B</value>
+        </element>
+
+        <element xsi:type="tet:Parameter">
+            <name>beam_setting_index</name>
+            <type>unsignedInt</type>
+        </element>
+
+        <element xsi:type="tet:Separator">
+            <value>/</value>
+        </element>
+
         <element xsi:type="tet:Parameter">
             <name>prefix</name>
             <type>string</type>
@@ -311,13 +333,13 @@ Element names are tied to the beamline or workflow and cannot be modified
         <entry>
             <tgtName>prefix</tgtName>
             <srcRange>0</srcRange>
-            <srcRange>6</srcRange>
+            <srcRange>11</srcRange>
         </entry>
 
         <entry>
             <tgtName>run</tgtName>
-            <srcRange>7</srcRange>
-            <srcRange>8</srcRange>
+            <srcRange>12</srcRange>
+            <srcRange>13</srcRange>
         </entry>
 
         <mapsFrom>interleaved</mapsFrom>
