@@ -199,14 +199,14 @@ The following values are supported:
 +--------------+--------------------------------------+
 | mode         | experiment type                      |
 +==============+======================================+
-| OSC          | standard oscillation data collection |
+| Rotation          | standard oscillation data collection |
 +--------------+--------------------------------------+
 | SSX-CHIP     | SSX fixed target experiments         |
 +--------------+--------------------------------------+
 | SSX-INJECTOR | SSX injector experiments             |
 +--------------+--------------------------------------+
 
-Default mode is ``OSC``.
+Default mode is ``Rotation``.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 

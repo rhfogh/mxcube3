@@ -18,12 +18,12 @@ describe('login', () => {
 
   it('can login with valid credentials', () => {
     cy.login();
-    cy.findByRole('heading', { name: 'MXCuBE-Web (OSC)' }).should('be.visible');
+    cy.findByRole('heading', { name: 'MXCuBE-Web (Rotation)' }).should('be.visible');
   });
 
   it('can log out and log back in', () => {
     cy.login();
-    cy.findByRole('heading', { name: 'MXCuBE-Web (OSC)' }).should('be.visible');
+    cy.findByRole('heading', { name: 'MXCuBE-Web (Rotation)' }).should('be.visible');
 
     // Dismiss observer dialog if any
     cy.get('body').then(($body) => {
@@ -37,6 +37,6 @@ describe('login', () => {
 
     // Log back in
     cy.login();
-    cy.findByRole('heading', { name: 'MXCuBE-Web (OSC)' }).should('be.visible');
+    cy.findByRole('heading', { name: 'MXCuBE-Web (Rotation)' }).should('be.visible');
   });
 });

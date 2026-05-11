@@ -7,7 +7,7 @@ const INITIAL_STATE = {
   showDialog: false,
   showConnectionLostDialog: false,
   showConfirmClearQueueDialog: false,
-  mode: 'OSC',
+  mode: 'Rotation',
   useGetSamplesFromSC: true,
   autosyncLims: false,
   serverVersion: '3',

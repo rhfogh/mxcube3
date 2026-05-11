@@ -31,8 +31,8 @@ mxcube:
   # Start OAV stream from MXCuBE process
   MXCUBE_STARTS_VIDEO_STREAM: true
 
-  # Mode, SSX-CHIP, SSX-INJECTOR, OSC
-  mode: OSC
+  # Mode, SSX-CHIP, SSX-INJECTOR, Rotation
+  mode: Rotation
 
   # Interval with which request to refresh token is made
   # by the client application.

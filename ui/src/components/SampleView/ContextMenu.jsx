@@ -352,7 +352,7 @@ export default function ContextMenu() {
               { text: 'divider', key: 4 },
               availableMethods.has('datacollection')
                 ? {
-                    text: 'Data Collection (Limited OSC)',
+                    text: 'Data Collection (Limited Rotation)',
                     action: () => createPointAndShowModal('DataCollection'),
                     key: 5,
                   }

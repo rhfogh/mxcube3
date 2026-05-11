@@ -13,7 +13,7 @@ class SimpleNameValue(BaseModel):
 
 
 class AppSettingsModel(BaseModel):
-    mode: ModeEnum = Field(ModeEnum.OSC, description="MXCuBE mode SSX or OSC")
+    mode: ModeEnum = Field(ModeEnum.Rotation, description="MXCuBE mode SSX or Rotation")
     version: str = Field("", description="MXCuBE version")
     mesh_result_format: str = Field(
         "PNG", description="Format of mesh result for display"

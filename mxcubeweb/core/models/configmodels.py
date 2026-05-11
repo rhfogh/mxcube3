@@ -221,7 +221,7 @@ class UserManagerConfigModel(BaseModel):
 class ModeEnum(str, Enum):
     SSX_INJECTOR = "SSX-INJECTOR"
     SSX_CHIP = "SSX-CHIP"
-    OSC = "OSC"
+    Rotation = "Rotation"
 
 
 class MXCUBEAppConfigModel(BaseModel):
@@ -256,7 +256,7 @@ class MXCUBEAppConfigModel(BaseModel):
     )
 
     mode: ModeEnum = Field(
-        ModeEnum.OSC, description="MXCuBE mode OSC, SSX-CHIP or SSX-INJECTOR"
+        ModeEnum.Rotation, description="MXCuBE mode Rotation, SSX-CHIP or SSX-INJECTOR"
     )
     LOCAL_DOMAINS: list[str] = Field(
         [],
