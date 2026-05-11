@@ -105,7 +105,7 @@ function CharacterisationTaskItem(props) {
           <thead>
             <tr>
               <th>Start &deg; </th>
-              <th>Osc. &deg; </th>
+              <th>Range &deg; </th>
               <th>t (s)</th>
               <th># Img</th>
               <th>T (%)</th>

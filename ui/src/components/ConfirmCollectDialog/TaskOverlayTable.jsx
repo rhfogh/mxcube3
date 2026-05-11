@@ -41,8 +41,8 @@ export default function TaskOverlayTable(props) {
     <Table striped bordered hover>
       <thead>
         <tr>
-          <th>Osc. start</th>
-          <th>Osc. range</th>
+          <th>Rotation start</th>
+          <th>Rotation range</th>
           <th>Exp time</th>
           <th>Resolution</th>
           <th>Transmission</th>

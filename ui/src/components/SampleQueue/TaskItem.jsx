@@ -107,7 +107,7 @@ function TaskItem(props) {
                 <thead>
                   <tr>
                     {parameters.osc_start !== null && <th>Start &deg; </th>}
-                    {parameters.osc_range !== null && <th>Osc. &deg; </th>}
+                    {parameters.osc_range !== null && <th>Range &deg; </th>}
                     <th>t (s)</th>
                     <th># Img</th>
                     <th>T (%)</th>

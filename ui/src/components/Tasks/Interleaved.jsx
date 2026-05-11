@@ -230,7 +230,7 @@ class Interleaved extends React.Component {
                   <tr>
                     <th>Subwedge </th>
                     <th>Start &deg; </th>
-                    <th>Osc. &deg; </th>
+                    <th>Range &deg; </th>
                     <th># Img</th>
                     <th>t (s)</th>
                     <th>T (%)</th>
