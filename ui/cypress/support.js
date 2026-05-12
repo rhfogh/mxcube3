@@ -30,7 +30,9 @@ Cypress.Commands.add('takeControl', () => {
 
 Cypress.Commands.add('loginWithControl', () => {
   cy.login();
-  cy.findByRole('heading', { name: 'MXCuBE-Web (Rotation)' }).should('be.visible');
+  cy.findByRole('heading', { name: 'MXCuBE-Web (Rotation)' }).should(
+    'be.visible',
+  );
 
   cy.takeControl();
   cy.findByRole('link', { name: /Data collection/u, hidden: true }).click();
