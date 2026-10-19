@@ -36,5 +36,7 @@ dependencies:
   # Install it in its own isolated environment (for example with `pipx install poetry`),
   # see the development install instructions in `docs/source/dev/environment.md`.
 
+  # Needed for developing summary data input to icat
+  #  - pyicat-plus
 
 ...
